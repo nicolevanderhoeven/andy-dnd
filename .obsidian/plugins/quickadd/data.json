@@ -1,0 +1,81 @@
+{
+  "choices": [
+    {
+      "id": "aba4e4d2-a3f3-4800-b0de-434a92c9e1fb",
+      "name": "New session",
+      "type": "Macro",
+      "command": true,
+      "macroId": "57db611a-564f-43e8-b94b-e06a739b5650"
+    }
+  ],
+  "macros": [
+    {
+      "name": "New session",
+      "id": "57db611a-564f-43e8-b94b-e06a739b5650",
+      "commands": [
+        {
+          "name": "archiveThisSession",
+          "type": "UserScript",
+          "id": "e128e979-a3a9-4e89-a86b-6e8aa3726c2e",
+          "path": "Scripts/archiveThisSession.js",
+          "settings": {}
+        },
+        {
+          "name": "getLastGameNum",
+          "type": "UserScript",
+          "id": "d4846e26-179d-4878-8776-2bf488db238e",
+          "path": "Scripts/getLastGameNum.js",
+          "settings": {}
+        },
+        {
+          "name": "Create new session",
+          "type": "NestedChoice",
+          "id": "bb6f6210-edbb-4975-b781-5dff9616ae4a",
+          "choice": {
+            "id": "d3c05724-5a45-44b0-bff1-0d9d5939a087",
+            "name": "Create new session",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/session.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "S{{VALUE:newGameNum}} {{DATE}} {{VALUE:title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Wildemount/_Tues Wildemount DM Notes/S{{VALUE:newGameNum}} {{DATE}} {{VALUE:title}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "",
+  "announceUpdates": true,
+  "version": "0.19.4",
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

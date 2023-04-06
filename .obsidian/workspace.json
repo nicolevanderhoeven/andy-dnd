@@ -1,0 +1,195 @@
+{
+  "main": {
+    "id": "975b86f9fec19245",
+    "type": "split",
+    "children": [
+      {
+        "id": "112e96e9ce1cb59b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ec3ee547ee31478",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wildemount/_Tues Wildemount DM Notes/S83 2023-03-28 Nogvurot Partings/S83 2023-03-28 Nogvurot Partings.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "36b308cbe728bc77",
+    "type": "split",
+    "children": [
+      {
+        "id": "1cec4a6a52b0f74a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e95792b513fa73cb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "422bfeac0c043d40",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1f7d69987544ccb3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "e75fe418cfc72b61",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "afe37eade2b3079e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e393ee672a84f782",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6f25b14d3e458ce2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Wildemount/_Tues Wildemount DM Notes/S83 2023-03-28 Nogvurot Partings/S83 2023-03-28 Nogvurot Partings.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b20b7c820971953",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Wildemount/_Tues Wildemount DM Notes/S83 2023-03-28 Nogvurot Partings/S83 2023-03-28 Nogvurot Partings.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "696978deb76611ea",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "93d6c950cce40682",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Wildemount/_Tues Wildemount DM Notes/S83 2023-03-28 Nogvurot Partings/S83 2023-03-28 Nogvurot Partings.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "2ec3ee547ee31478",
+  "lastOpenFiles": [
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 2023-04-05 Zadash.md",
+    "Wildemount/_Tues Wildemount DM Notes/S85 2023-04-05 TPK/S85 2023-04-05 TPK.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-03-28 Nogvurot Partings",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-03-28 Nogvurot Partings/S83 2023-03-28 Nogvurot Partings.md",
+    "Wildemount/_Tues Wildemount DM Notes/S84 2023-04-05 Zadash",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-03-28 Nogvurot Partings",
+    "Wildemount/_Tues Wildemount DM Notes/00 Previous Session Lister.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S100 2023-04-05 and again.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S101 2023-04-05 Now what.md",
+    "Wildemount/_Tues Wildemount DM Notes/S102 2023-04-05 Seems to work pretty well/S102 2023-04-05 Seems to work pretty well.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-03-28 Nogvurot Partings",
+    "Wildemount/_Tues Wildemount DM Notes/S101 2023-04-05 Now what",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 2023-04-05 Zadash you there.md",
+    "Wildemount/_Tues Wildemount DM Notes/S100 2023-04-05 and again",
+    "Wildemount/_Tues Wildemount DM Notes/S84 2023-04-05 Zadash you there",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 2023-04-05 What about this.md",
+    "Wildemount/_Tues Wildemount DM Notes/S85 2023-04-05 and nwo this/S85 2023-04-05 and nwo this.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-03-28 Nogvurot Partings",
+    "Wildemount/_Tues Wildemount DM Notes/S84 2023-04-05 What about this",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-05 Zadash what what/S83 2023-04-05 Zadash what what.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-03-28 Nogvurot Partings",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-05 zadash now/S83 2023-04-05 zadash now.md",
+    "Wildemount/_Tues Wildemount DM Notes/S82 2023-04-05 hey zadash/S82 2023-04-05 hey zadash.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S101 2023-04-05 Yo yo.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S101 2023-04-05 how the.md",
+    "Wildemount/_Tues Wildemount DM Notes/S101 2023-04-05 doesn't quite work all the time/S101 2023-04-05 doesn't quite work all the time.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-05 What/S83 2023-04-05 What.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-05 Then what/S83 2023-04-05 Then what.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 2023-04-05 it's over.md",
+    "Wildemount/_Tues Wildemount DM Notes/S85 2023-04-05 and then/S85 2023-04-05 and then.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 2023-04-05 This is the new session.md",
+    "Wildemount/_Tues Wildemount DM Notes/S85 2023-04-05 Now we're in Zadash/S85 2023-04-05 Now we're in Zadash.md",
+    "Wildemount/_Tues Wildemount DM Notes/S84 2023-04-05 Test/S84 2023-04-05 Test.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S81 2023-Etwas.md"
+  ]
+}
