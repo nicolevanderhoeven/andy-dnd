@@ -70,20 +70,6 @@
       "runOnStartup": false
     },
     {
-      "name": "Update frontmatter",
-      "id": "dbd2fc43-2d56-4321-9043-9ee598c0a2ef",
-      "commands": [
-        {
-          "name": "updateFrontMatter",
-          "type": "UserScript",
-          "id": "c71276df-cfbf-4d98-9537-2d04bc28b18f",
-          "path": "Scripts/updateFrontMatter.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
       "name": "Update with title",
       "id": "5b407e97-4f4c-49b6-a477-e63348745704",
       "commands": [
