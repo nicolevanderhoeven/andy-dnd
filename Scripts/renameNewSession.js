@@ -1,10 +1,9 @@
-module.exports = async function copyLastSession(params) {
+module.exports = async function renameNewSession(params) {
     /*
     This function does the following;
     - renames the current session folder with the new session number and title
     - renames the session file with the new session number and title
    */
-    const targetFolder = "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes";
     const notesFolder = "Wildemount/_Tues Wildemount DM Notes";
     const files = params.app.vault.getAbstractFileByPath(notesFolder);
     for (const file in files.children) {

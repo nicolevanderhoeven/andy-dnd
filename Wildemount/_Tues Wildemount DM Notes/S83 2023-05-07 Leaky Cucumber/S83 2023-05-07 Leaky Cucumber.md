@@ -3,7 +3,7 @@ tags:
 type: "session note"
 location: 
 date: 2023-05-07
-episode: "S83 2023-05-07 Test"
+episode: "S83 2023-05-07 Leaky Cucumber"
 ---
 [[00 Welcome to Wildemount#Exandrian Calendar|Calendar and Time]]
 
