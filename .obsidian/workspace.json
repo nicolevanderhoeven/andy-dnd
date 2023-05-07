@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b6e988cbd2c3e509",
+        "id": "e5708943e7dc33c6",
         "type": "tabs",
         "children": [
           {
-            "id": "09462d4f6c1af882",
+            "id": "ca7796399a74b515",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -58,14 +58,6 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "e75fe418cfc72b61",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
               "state": {}
             }
           }
@@ -146,8 +138,14 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "09462d4f6c1af882",
+  "active": "ca7796399a74b515",
   "lastOpenFiles": [
+    "README.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-11 Leaky Cucumber/S83 2023-04-11 Leaky Cucumber.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-11 Leaky Cucumber/Other test.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-11 Leaky Cucumber/Scura Cheat Sheet.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-11 Leaky Cucumber",
+    "Wildemount/_Tues Wildemount DM Notes/Sundefined 2023-05-07/Sundefined 2023-05-07.md",
     "Wildemount/_Tues Wildemount DM Notes/S90 2023-05-07/S90 2023-05-07.md",
     "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S89 2023-05-07 Here comes the sun/S89 2023-05-07 Here comes the sun.md",
     "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S89 2023-05-07 Here comes the sun/Other test.md",
@@ -175,14 +173,8 @@
     "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 2023-05-07/Scura Cheat Sheet.md",
     "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 2023-05-07",
     "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S82 2023-Something/S82 2023-02-02 Something.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S81 2023-Etwas/S81 2023-01-01 Etwas.md",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-11 Leaky Cucumber/S83 2023-04-11 Leaky Cucumber.md",
-    "README.md",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-11 Leaky Cucumber/Other test.md",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-11 Leaky Cucumber/Scura Cheat Sheet.md",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-11 Leaky Cucumber",
+    "Wildemount/_Tues Wildemount DM Notes/Sundefined 2023-05-07",
     "Wildemount/_Tues Wildemount DM Notes/S90 2023-05-07",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S100 2023-05-07 Let's try this",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S99 2023-05-07"
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S100 2023-05-07 Let's try this"
   ]
 }
