@@ -30,10 +30,10 @@
     },
     {
       "id": "5ca5e955-04ce-470f-9ea0-3c4f5e6a4887",
-      "name": "Update frontmatter",
+      "name": "Update with title",
       "type": "Macro",
       "command": true,
-      "macroId": "dbd2fc43-2d56-4321-9043-9ee598c0a2ef"
+      "macroId": "5b407e97-4f4c-49b6-a477-e63348745704"
     }
   ],
   "macros": [
@@ -183,6 +183,20 @@
           "type": "UserScript",
           "id": "c71276df-cfbf-4d98-9537-2d04bc28b18f",
           "path": "Scripts/updateFrontMatter.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Update with title",
+      "id": "5b407e97-4f4c-49b6-a477-e63348745704",
+      "commands": [
+        {
+          "name": "updateWithTitle",
+          "type": "UserScript",
+          "id": "b3b0e60a-45db-4fa1-b7d9-e6dd5db62465",
+          "path": "Scripts/updateWithTitle.js",
           "settings": {}
         }
       ],
