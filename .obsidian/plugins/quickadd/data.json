@@ -6,6 +6,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "57db611a-564f-43e8-b94b-e06a739b5650"
+    },
+    {
+      "id": "8e5b471e-b3b1-4685-824f-600649e4a4f4",
+      "name": "Archive session",
+      "type": "Macro",
+      "command": true,
+      "macroId": "710bf634-ea4d-42f5-b65b-ecd651711c73"
     }
   ],
   "macros": [
@@ -64,13 +71,27 @@
         }
       ],
       "runOnStartup": false
+    },
+    {
+      "name": "Archive session",
+      "id": "710bf634-ea4d-42f5-b65b-ecd651711c73",
+      "commands": [
+        {
+          "name": "archiveThisSession",
+          "type": "UserScript",
+          "id": "5294fe06-37c7-47a4-a651-7819894f3cbd",
+          "path": "Scripts/archiveThisSession.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
     }
   ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",
   "announceUpdates": true,
-  "version": "0.23.0",
+  "version": "0.19.4",
   "ai": {
     "OpenAIApiKey": "",
     "defaultModel": "Ask me",

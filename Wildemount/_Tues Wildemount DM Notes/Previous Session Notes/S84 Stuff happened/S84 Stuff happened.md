@@ -2,8 +2,8 @@
 tags: 
 type: "session note"
 location: 
-date: <% tp.date.now("YYYY-MM-DD") %>
-episode: "<% tp.file.title %>"
+date: 2023-05-07
+episode: "S84 Stuff happened"
 ---
 [[00 Welcome to Wildemount#Exandrian Calendar|Calendar and Time]]
 

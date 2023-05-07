@@ -15,5 +15,14 @@
       ],
       "key": "N"
     }
+  ],
+  "quickadd:choice:8e5b471e-b3b1-4685-824f-600649e4a4f4": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "A"
+    }
   ]
 }

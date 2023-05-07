@@ -1,17 +1,19 @@
 module.exports = async function archiveThisSession(params) {
-    /*
-    This function does the following:
-    - moves the current open file to "Previous Session Notes"
-    - deletes the folder it was in (ex: "S83 2023-03-28 Nogvurot Partings")
-    */
-    const targetFolder = "/Wildemount/_Tues Wildemount DM Notes/Previous Session Notes";
-    const tfile = params.app.workspace.getActiveFile();
-    console.log(tfile);
-    console.log(`${targetFolder}/${tfile}`)
-    const parentFolder = tfile.parent;
-    await app.fileManager.renameFile(
-        tfile,
-        `${targetFolder}/${tfile.name}`
-    );
-    await app.vault.delete(parentFolder);
+   /*
+    This function does the following;
+    - looks for all folders in the notes folder (Wildemount/_Tues Wildemount DM Notes) other than
+        "00 Previous Session Lister" and "Previous Session Notes"
+    - moves those folders to "Previous Session Notes", along with all files inside it
+   */
+    const targetFolder = "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes";
+    const notesFolder = "Wildemount/_Tues Wildemount DM Notes";
+    const files = params.app.vault.getAbstractFileByPath(notesFolder);
+    for (const file in files.children) {
+        let folderName = files.children[file].name;
+        if (!folderName.includes("00 Previous Session Lister")) {
+            if (!folderName.includes("Previous Session Notes")) {
+                await app.fileManager.renameFile(files.children[file], targetFolder + '/' + folderName);
+            }
+        }
+    }
 };
