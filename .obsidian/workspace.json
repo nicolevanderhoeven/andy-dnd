@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eb458ad6652bd899",
+        "id": "9629b275865bfa22",
         "type": "tabs",
         "children": [
           {
-            "id": "cf568e8a92707310",
+            "id": "148959a4f68a81b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wildemount/_Tues Wildemount DM Notes/S86 2023-05-07 Leaky Cucumber/S86 2023-05-07 Leaky Cucumber.md",
+                "file": "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 Leaky Cucumber/S83 2023-05-07 Leaky Cucumber.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Wildemount/_Tues Wildemount DM Notes/S86 2023-05-07 Leaky Cucumber/S86 2023-05-07 Leaky Cucumber.md",
+                "file": "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 Leaky Cucumber/S83 2023-05-07 Leaky Cucumber.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Wildemount/_Tues Wildemount DM Notes/S86 2023-05-07 Leaky Cucumber/S86 2023-05-07 Leaky Cucumber.md",
+                "file": "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 Leaky Cucumber/S83 2023-05-07 Leaky Cucumber.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Wildemount/_Tues Wildemount DM Notes/S86 2023-05-07 Leaky Cucumber/S86 2023-05-07 Leaky Cucumber.md"
+                "file": "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 Leaky Cucumber/S83 2023-05-07 Leaky Cucumber.md"
               }
             }
           }
@@ -155,43 +155,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cf568e8a92707310",
+  "active": "148959a4f68a81b0",
   "lastOpenFiles": [
-    "Wildemount/_Tues Wildemount DM Notes/S86 2023-05-07 Leaky Cucumber/S86 2023-05-07 Leaky Cucumber.md",
-    "Wildemount/_Tues Wildemount DM Notes/S86 2023-05-07 Leaky Cucumber",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 Stuff happened/S84 Stuff happened.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S85 2023-05-07 This is 85/S85 2023-05-07 This is 85.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S85 2023-05-07 This is 85",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 Stuff happened/Scura Cheat Sheet.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 Stuff happened",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S83 2023-03-28 Nogvurot Partings",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S82 2023-Something/S82 2023-Something.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S82 2023-Something",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S83 2023-03-28 Nogvurot Partings/S83 2023-03-28 Nogvurot Partings.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S81 2023-Etwas",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 whatever/S83 2023-05-07 whatever.md",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 whatever",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 /S83 2023-05-07 test.md",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 (Unicode Encoding Conflict)/S83 2023-05-07 test.md",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 (Unicode Encoding Conflict)",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 ",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 hello/S83 2023-05-07 hello.md",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 This is next/S83 2023-05-07 This is next.md",
-    "Templates/session.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 2023-04-05 Zadash.md",
-    "Wildemount/_Tues Wildemount DM Notes/S85 2023-04-05 TPK/S85 2023-04-05 TPK.md",
-    "Wildemount/_Tues Wildemount DM Notes/00 Previous Session Lister.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S100 2023-04-05 and again.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S101 2023-04-05 Now what.md",
-    "Wildemount/_Tues Wildemount DM Notes/S102 2023-04-05 Seems to work pretty well/S102 2023-04-05 Seems to work pretty well.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 2023-04-05 Zadash you there.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S84 2023-04-05 What about this.md",
-    "Wildemount/_Tues Wildemount DM Notes/S85 2023-04-05 and nwo this/S85 2023-04-05 and nwo this.md",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-05 Zadash what what/S83 2023-04-05 Zadash what what.md",
-    "Wildemount/_Tues Wildemount DM Notes/S83 2023-04-05 zadash now/S83 2023-04-05 zadash now.md",
-    "Wildemount/_Tues Wildemount DM Notes/S82 2023-04-05 hey zadash/S82 2023-04-05 hey zadash.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S101 2023-04-05 Yo yo.md",
-    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S101 2023-04-05 how the.md"
+    "Wildemount/_Tues Wildemount DM Notes/S84 2023-05-07/S84 2023-05-07.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 Leaky Cucumber/S83 2023-05-07 Leaky Cucumber.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 Leaky Cucumber/Other test.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 Leaky Cucumber/Scura Cheat Sheet.md",
+    "Wildemount/_Tues Wildemount DM Notes/S83 2023-05-07 Leaky Cucumber",
+    "Wildemount/_Tues Wildemount DM Notes/S84 2023-05-07/Other test.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S114 2023-05-07/S114 2023-05-07.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S114 2023-05-07/Other test.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S114 2023-05-07/Scura Cheat Sheet.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S114 2023-05-07",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S113 2023-05-07/S113 2023-05-07.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S113 2023-05-07/Other test.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S113 2023-05-07/Scura Cheat Sheet.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S113 2023-05-07",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S112 2023-05-07/S112 2023-05-07.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S112 2023-05-07/Other test.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S112 2023-05-07/Scura Cheat Sheet.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S112 2023-05-07",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S111 2023-05-07/Other test.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S111 2023-05-07/S111 2023-05-07.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S111 2023-05-07/Scura Cheat Sheet.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S111 2023-05-07",
+    "Wildemount/_Tues Wildemount DM Notes/S84 2023-05-07/Scura Cheat Sheet.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S110 2023-05-07/S110 2023-05-07.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S110 2023-05-07/Scura Cheat Sheet.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S110 2023-05-07",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S109 2023-05-07/S109 2023-05-07.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S109 2023-05-07/Scura Cheat Sheet.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S109 2023-05-07",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S108 2023-05-07/S108 2023-05-07.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S108 2023-05-07/Scura Cheat Sheet.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S108 2023-05-07",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S107 2023-05-07/Scura Cheat Sheet.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S107 2023-05-07/S107 2023-05-07.md",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S107 2023-05-07",
+    "Wildemount/_Tues Wildemount DM Notes/Previous Session Notes/S106 2023-05-07"
   ]
 }

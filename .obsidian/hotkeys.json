@@ -33,5 +33,14 @@
       ],
       "key": "."
     }
+  ],
+  "quickadd:choice:c4916cfb-19da-4c01-9ceb-c9e07cb9f71e": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }

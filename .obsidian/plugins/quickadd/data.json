@@ -20,6 +20,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "169fa2c0-b8ef-4e08-a29a-8309a1cf6779"
+    },
+    {
+      "id": "c4916cfb-19da-4c01-9ceb-c9e07cb9f71e",
+      "name": "Rename session",
+      "type": "Macro",
+      "command": true,
+      "macroId": "54375e28-1967-44d5-be55-5a3f46aef50a"
     }
   ],
   "macros": [
@@ -35,6 +42,12 @@
           "settings": {}
         },
         {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "55f524c1-ea75-4e87-82f5-2873ea038e61",
+          "time": 100
+        },
+        {
           "name": "getLastGameNum",
           "type": "UserScript",
           "id": "d4846e26-179d-4878-8776-2bf488db238e",
@@ -42,39 +55,11 @@
           "settings": {}
         },
         {
-          "name": "Create new session",
-          "type": "NestedChoice",
-          "id": "bb6f6210-edbb-4975-b781-5dff9616ae4a",
-          "choice": {
-            "id": "d3c05724-5a45-44b0-bff1-0d9d5939a087",
-            "name": "Create new session",
-            "type": "Template",
-            "command": false,
-            "templatePath": "Templates/session.md",
-            "fileNameFormat": {
-              "enabled": true,
-              "format": "S{{VALUE:newGameNum}} {{DATE}} {{VALUE:title}}"
-            },
-            "folder": {
-              "enabled": true,
-              "folders": [
-                "Wildemount/_Tues Wildemount DM Notes/S{{VALUE:newGameNum}} {{DATE}} {{VALUE:title}}"
-              ],
-              "chooseWhenCreatingNote": false,
-              "createInSameFolderAsActiveFile": false,
-              "chooseFromSubfolders": false
-            },
-            "appendLink": false,
-            "openFileInNewTab": {
-              "enabled": true,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": true,
-            "openFileInMode": "default",
-            "fileExistsMode": "Increment the file name",
-            "setFileExistsBehavior": false
-          }
+          "name": "renameNewSession",
+          "type": "UserScript",
+          "id": "6a83ee2a-fbfd-4507-93df-2061b68b6868",
+          "path": "Scripts/renameNewSession.js",
+          "settings": {}
         }
       ],
       "runOnStartup": false
@@ -138,6 +123,27 @@
             "fileExistsMode": "Increment the file name",
             "setFileExistsBehavior": false
           }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Rename session",
+      "id": "54375e28-1967-44d5-be55-5a3f46aef50a",
+      "commands": [
+        {
+          "name": "getLastGameNum",
+          "type": "UserScript",
+          "id": "488b5752-0fa3-4c03-a921-220a15d02d21",
+          "path": "Scripts/getLastGameNum.js",
+          "settings": {}
+        },
+        {
+          "name": "renameNewSession",
+          "type": "UserScript",
+          "id": "127a4e2f-5786-4718-9f19-cf98da400cc4",
+          "path": "Scripts/renameNewSession.js",
+          "settings": {}
         }
       ],
       "runOnStartup": false
