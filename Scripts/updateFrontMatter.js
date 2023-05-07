@@ -2,6 +2,7 @@ module.exports = async function updateFrontMatter(params) {
     /*
     This function does the following;
     - updates the frontmatter property `date` to the current date
+    - updates the frontmatter property `episode` to the name of the current session
    */
     const notesFolder = "Wildemount/_Tues Wildemount DM Notes";
     const files = params.app.vault.getAbstractFileByPath(notesFolder);
