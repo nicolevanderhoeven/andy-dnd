@@ -2,7 +2,7 @@
   "choices": [
     {
       "id": "aba4e4d2-a3f3-4800-b0de-434a92c9e1fb",
-      "name": "New session",
+      "name": "Archive & new session",
       "type": "Macro",
       "command": true,
       "macroId": "57db611a-564f-43e8-b94b-e06a739b5650"
@@ -13,11 +13,18 @@
       "type": "Macro",
       "command": true,
       "macroId": "710bf634-ea4d-42f5-b65b-ecd651711c73"
+    },
+    {
+      "id": "7811dc63-c31f-45e2-aa0c-6479933b0e38",
+      "name": "New session",
+      "type": "Macro",
+      "command": true,
+      "macroId": "169fa2c0-b8ef-4e08-a29a-8309a1cf6779"
     }
   ],
   "macros": [
     {
-      "name": "New session",
+      "name": "Archive + new session",
       "id": "57db611a-564f-43e8-b94b-e06a739b5650",
       "commands": [
         {
@@ -82,6 +89,55 @@
           "id": "5294fe06-37c7-47a4-a651-7819894f3cbd",
           "path": "Scripts/archiveThisSession.js",
           "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "New session",
+      "id": "169fa2c0-b8ef-4e08-a29a-8309a1cf6779",
+      "commands": [
+        {
+          "name": "getLastGameNum",
+          "type": "UserScript",
+          "id": "a7180ed5-ff2d-4212-a61c-9964fad576b8",
+          "path": "Scripts/getLastGameNum.js",
+          "settings": {}
+        },
+        {
+          "name": "Create new session",
+          "type": "NestedChoice",
+          "id": "e9d95a47-1047-40de-9054-d1155a812211",
+          "choice": {
+            "id": "63c9bef6-f232-4481-8053-82c61af753c3",
+            "name": "Create new session",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/session.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "S{{VALUE:newGameNum}} {{DATE}} {{VALUE:title}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Wildemount/_Tues Wildemount DM Notes/S{{VALUE:newGameNum}} {{DATE}} {{VALUE:title}}"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
         }
       ],
       "runOnStartup": false
