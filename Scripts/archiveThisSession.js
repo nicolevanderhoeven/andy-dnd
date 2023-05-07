@@ -10,7 +10,6 @@ module.exports = async function archiveThisSession(params) {
     const files = params.app.vault.getAbstractFileByPath(notesFolder);
     for (const file in files.children) {
         let folderName = files.children[file].name;
-        console.log(files);
         if (!folderName.includes("00 Previous Session Lister")) {
             if (!folderName.includes("Previous Session Notes")) {
                 // await app.fileManager.renameFile(files.children[file], targetFolder + '/' + folderName);

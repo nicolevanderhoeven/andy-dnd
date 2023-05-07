@@ -27,6 +27,13 @@
       "type": "Macro",
       "command": true,
       "macroId": "54375e28-1967-44d5-be55-5a3f46aef50a"
+    },
+    {
+      "id": "5ca5e955-04ce-470f-9ea0-3c4f5e6a4887",
+      "name": "Update frontmatter",
+      "type": "Macro",
+      "command": true,
+      "macroId": "dbd2fc43-2d56-4321-9043-9ee598c0a2ef"
     }
   ],
   "macros": [
@@ -55,10 +62,29 @@
           "settings": {}
         },
         {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "f382bae5-657f-48cf-8d81-aae6e8e2f547",
+          "time": 100
+        },
+        {
           "name": "renameNewSession",
           "type": "UserScript",
           "id": "6a83ee2a-fbfd-4507-93df-2061b68b6868",
           "path": "Scripts/renameNewSession.js",
+          "settings": {}
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "60fd23cf-8f1b-4f38-b59f-d4b9e626bf40",
+          "time": 100
+        },
+        {
+          "name": "updateFrontMatter",
+          "type": "UserScript",
+          "id": "a5425742-638c-4d47-85ff-317567d5e721",
+          "path": "Scripts/updateFrontMatter.js",
           "settings": {}
         }
       ],
@@ -143,6 +169,20 @@
           "type": "UserScript",
           "id": "127a4e2f-5786-4718-9f19-cf98da400cc4",
           "path": "Scripts/renameNewSession.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Update frontmatter",
+      "id": "dbd2fc43-2d56-4321-9043-9ee598c0a2ef",
+      "commands": [
+        {
+          "name": "updateFrontMatter",
+          "type": "UserScript",
+          "id": "c71276df-cfbf-4d98-9537-2d04bc28b18f",
+          "path": "Scripts/updateFrontMatter.js",
           "settings": {}
         }
       ],

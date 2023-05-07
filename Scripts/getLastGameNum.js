@@ -24,6 +24,6 @@ module.exports = async function getlastGameNum(params) {
     }
     params.variables["lastGameNum"] = lastGameNum;
     params.variables["newGameNum"] = parseInt(lastGameNum) + 1;
-    console.log('last: ' + params.variables["lastGameNum"]);
-    console.log('new: ' + params.variables["newGameNum"]);
+    // console.log('last: ' + params.variables["lastGameNum"]);
+    // console.log('new: ' + params.variables["newGameNum"]);
 }
