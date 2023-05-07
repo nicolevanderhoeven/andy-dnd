@@ -8,8 +8,9 @@ module.exports = async function updateFrontMatter(params) {
     const files = params.app.vault.getAbstractFileByPath(notesFolder);
     const currentFile = params.app.workspace.getActiveFile();
     const currentFileName = currentFile.basename;
-    app.fileManager.processFrontMatter(currentFile, fm => {
-        fm["date"] = currentFileName.slice(4,14);
+    const spaceIndex = currentFileName.indexOf(' ');
+    await app.fileManager.processFrontMatter(currentFile, fm => {
+        fm["date"] = currentFileName.slice(spaceIndex+1,spaceIndex+11);
         fm["episode"] = currentFileName;
     });
     for (const file in files.children) {

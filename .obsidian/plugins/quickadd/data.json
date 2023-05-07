@@ -8,27 +8,6 @@
       "macroId": "57db611a-564f-43e8-b94b-e06a739b5650"
     },
     {
-      "id": "8e5b471e-b3b1-4685-824f-600649e4a4f4",
-      "name": "Archive session",
-      "type": "Macro",
-      "command": true,
-      "macroId": "710bf634-ea4d-42f5-b65b-ecd651711c73"
-    },
-    {
-      "id": "7811dc63-c31f-45e2-aa0c-6479933b0e38",
-      "name": "New session",
-      "type": "Macro",
-      "command": true,
-      "macroId": "169fa2c0-b8ef-4e08-a29a-8309a1cf6779"
-    },
-    {
-      "id": "c4916cfb-19da-4c01-9ceb-c9e07cb9f71e",
-      "name": "Rename session",
-      "type": "Macro",
-      "command": true,
-      "macroId": "54375e28-1967-44d5-be55-5a3f46aef50a"
-    },
-    {
       "id": "5ca5e955-04ce-470f-9ea0-3c4f5e6a4887",
       "name": "Update with title",
       "type": "Macro",
@@ -85,90 +64,6 @@
           "type": "UserScript",
           "id": "a5425742-638c-4d47-85ff-317567d5e721",
           "path": "Scripts/updateFrontMatter.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Archive session",
-      "id": "710bf634-ea4d-42f5-b65b-ecd651711c73",
-      "commands": [
-        {
-          "name": "archiveThisSession",
-          "type": "UserScript",
-          "id": "5294fe06-37c7-47a4-a651-7819894f3cbd",
-          "path": "Scripts/archiveThisSession.js",
-          "settings": {}
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "New session",
-      "id": "169fa2c0-b8ef-4e08-a29a-8309a1cf6779",
-      "commands": [
-        {
-          "name": "getLastGameNum",
-          "type": "UserScript",
-          "id": "a7180ed5-ff2d-4212-a61c-9964fad576b8",
-          "path": "Scripts/getLastGameNum.js",
-          "settings": {}
-        },
-        {
-          "name": "Create new session",
-          "type": "NestedChoice",
-          "id": "e9d95a47-1047-40de-9054-d1155a812211",
-          "choice": {
-            "id": "63c9bef6-f232-4481-8053-82c61af753c3",
-            "name": "Create new session",
-            "type": "Template",
-            "command": false,
-            "templatePath": "Templates/session.md",
-            "fileNameFormat": {
-              "enabled": true,
-              "format": "S{{VALUE:newGameNum}} {{DATE}} {{VALUE:title}}"
-            },
-            "folder": {
-              "enabled": true,
-              "folders": [
-                "Wildemount/_Tues Wildemount DM Notes/S{{VALUE:newGameNum}} {{DATE}} {{VALUE:title}}"
-              ],
-              "chooseWhenCreatingNote": false,
-              "createInSameFolderAsActiveFile": false,
-              "chooseFromSubfolders": false
-            },
-            "appendLink": false,
-            "openFileInNewTab": {
-              "enabled": true,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": true,
-            "openFileInMode": "default",
-            "fileExistsMode": "Increment the file name",
-            "setFileExistsBehavior": false
-          }
-        }
-      ],
-      "runOnStartup": false
-    },
-    {
-      "name": "Rename session",
-      "id": "54375e28-1967-44d5-be55-5a3f46aef50a",
-      "commands": [
-        {
-          "name": "getLastGameNum",
-          "type": "UserScript",
-          "id": "488b5752-0fa3-4c03-a921-220a15d02d21",
-          "path": "Scripts/getLastGameNum.js",
-          "settings": {}
-        },
-        {
-          "name": "renameNewSession",
-          "type": "UserScript",
-          "id": "127a4e2f-5786-4718-9f19-cf98da400cc4",
-          "path": "Scripts/renameNewSession.js",
           "settings": {}
         }
       ],
