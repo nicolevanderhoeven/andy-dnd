@@ -13,6 +13,20 @@
       "type": "Macro",
       "command": true,
       "macroId": "5b407e97-4f4c-49b6-a477-e63348745704"
+    },
+    {
+      "id": "ec3b7eeb-183a-4023-b1e4-442c961071a0",
+      "name": "Archive only",
+      "type": "Macro",
+      "command": true,
+      "macroId": "838d6785-67d9-4d50-bc22-9c7594f93bcf"
+    },
+    {
+      "id": "b5128729-487f-45dd-820d-533d6bed11c4",
+      "name": "Rename",
+      "type": "Macro",
+      "command": true,
+      "macroId": "5967c383-157b-4477-bda5-00ba5f1f5b38"
     }
   ],
   "macros": [
@@ -78,6 +92,47 @@
           "type": "UserScript",
           "id": "b3b0e60a-45db-4fa1-b7d9-e6dd5db62465",
           "path": "Scripts/updateWithTitle.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "Archive only",
+      "id": "838d6785-67d9-4d50-bc22-9c7594f93bcf",
+      "commands": [
+        {
+          "name": "archiveThisSession",
+          "type": "UserScript",
+          "id": "3bfcf2f7-2a2b-4cc8-bef8-5120734c24d3",
+          "path": "Scripts/archiveThisSession.js",
+          "settings": {}
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "rename",
+      "id": "5967c383-157b-4477-bda5-00ba5f1f5b38",
+      "commands": [
+        {
+          "name": "getLastGameNum",
+          "type": "UserScript",
+          "id": "4f4a992a-b314-4a17-9d02-0667edeec6bf",
+          "path": "Scripts/getLastGameNum.js",
+          "settings": {}
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "9cafa8e2-cc25-40c2-b55f-e3d100671f0a",
+          "time": 100
+        },
+        {
+          "name": "renameNewSession",
+          "type": "UserScript",
+          "id": "14d40b86-415d-4fe2-bcf1-756eaa6c5256",
+          "path": "Scripts/renameNewSession.js",
           "settings": {}
         }
       ],

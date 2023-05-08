@@ -51,5 +51,23 @@
       ],
       "key": "U"
     }
+  ],
+  "quickadd:choice:ec3b7eeb-183a-4023-b1e4-442c961071a0": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "quickadd:choice:b5128729-487f-45dd-820d-533d6bed11c4": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "R"
+    }
   ]
 }

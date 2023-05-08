@@ -15,10 +15,9 @@ module.exports = async function updateFrontMatter(params) {
     });
     for (const file in files.children) {
         let folderName = files.children[file].name;
-        if (!folderName.includes("00 Previous Session Lister")) {
-            if (!folderName.includes("Previous Session Notes")) {
+        const sessionRegex = /S(\d+) (\d+)/g;
+        if (folderName.match(sessionRegex)) {
                 await app.fileManager.renameFile(files.children[file], notesFolder + '/' + currentFileName);
-            }
         }
     }
 }

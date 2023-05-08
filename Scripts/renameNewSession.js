@@ -8,18 +8,18 @@ module.exports = async function renameNewSession(params) {
     const files = params.app.vault.getAbstractFileByPath(notesFolder);
     for (const file in files.children) {
         let folderName = files.children[file].name;
-        if (!folderName.includes("00 Previous Session Lister")) {
-            if (!folderName.includes("Previous Session Notes")) {
-                const newGameName = 'S' + params.variables["newGameNum"] + ' ' + moment().format('YYYY-MM-DD');
-                const newFolderPath = notesFolder + '/' + newGameName;
-                app.fileManager.renameFile(files.children[file], newFolderPath);
-                for (const note in files.children[file].children) {
-                    const noteName = files.children[file].children[note].name;
-                    const regex = /S(\d+)/g;
-                    if (noteName.match(regex)) {
-                        const newNotePath = newFolderPath + '/' + newGameName + '.md';
-                        app.fileManager.renameFile(files.children[file].children[note], newNotePath);
-                    }
+        const sessionRegex = /S(\d+) (\d+)/g;
+        if (folderName.match(sessionRegex)) {
+            const newGameName = 'S' + params.variables["newGameNum"] + ' ' + moment().format('YYYY-MM-DD');
+            const newFolderPath = notesFolder + '/' + newGameName;
+            app.fileManager.renameFile(files.children[file], newFolderPath);
+            for (const note in files.children[file].children) {
+                const noteName = files.children[file].children[note].name;
+                const regex = /S(\d+)/g;
+                if (noteName.match(regex)) {
+                    console.log('noteName: ' + noteName);
+                    const newNotePath = newFolderPath + '/' + newGameName + '.md';
+                    app.fileManager.renameFile(files.children[file].children[note], newNotePath);
                 }
             }
         }

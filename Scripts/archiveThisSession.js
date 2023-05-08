@@ -10,16 +10,16 @@ module.exports = async function archiveThisSession(params) {
     const files = params.app.vault.getAbstractFileByPath(notesFolder);
     for (const file in files.children) {
         let folderName = files.children[file].name;
-        if (!folderName.includes("00 Previous Session Lister")) {
-            if (!folderName.includes("Previous Session Notes")) {
-                // await app.fileManager.renameFile(files.children[file], targetFolder + '/' + folderName);
-                await app.vault.createFolder(targetFolder + '/' + folderName);
-                for (const note in files.children[file].children) {
-                    const noteName = files.children[file].children[note].name;
-                    const copiedNotePath = targetFolder + '/' + folderName + '/' + noteName;
-                    await app.vault.copy(files.children[file].children[note], copiedNotePath);
-                }
+        const sessionRegex = /S(\d+) (\d+)/g;
+        if (folderName.match(sessionRegex)) {
+            console.log('folderName: ' + folderName);
+            await app.vault.createFolder(targetFolder + '/' + folderName);
+            for (const note in files.children[file].children) {
+                const noteName = files.children[file].children[note].name;
+                const copiedNotePath = targetFolder + '/' + folderName + '/' + noteName;
+                await app.vault.copy(files.children[file].children[note], copiedNotePath);
             }
+            break;
         }
     }
 };
