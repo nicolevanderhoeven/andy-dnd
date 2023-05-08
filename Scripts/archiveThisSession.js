@@ -12,7 +12,6 @@ module.exports = async function archiveThisSession(params) {
         let folderName = files.children[file].name;
         const sessionRegex = /S(\d+) (\d+)/g;
         if (folderName.match(sessionRegex)) {
-            console.log('folderName: ' + folderName);
             await app.vault.createFolder(targetFolder + '/' + folderName);
             for (const note in files.children[file].children) {
                 const noteName = files.children[file].children[note].name;

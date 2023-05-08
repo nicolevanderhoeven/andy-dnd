@@ -17,7 +17,6 @@ module.exports = async function renameNewSession(params) {
                 const noteName = files.children[file].children[note].name;
                 const regex = /S(\d+)/g;
                 if (noteName.match(regex)) {
-                    console.log('noteName: ' + noteName);
                     const newNotePath = newFolderPath + '/' + newGameName + '.md';
                     app.fileManager.renameFile(files.children[file].children[note], newNotePath);
                 }
